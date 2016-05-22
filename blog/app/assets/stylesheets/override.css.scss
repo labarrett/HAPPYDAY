@@ -1,0 +1,150 @@
+
+* {
+  margin: 0;
+  font-family: "adelle",serif;
+}
+
+h1 {
+  color:green;
+}
+
+.log {
+background-color: white;
+width: 115px;
+height: 30px;
+position: absolute;
+top: 60px;
+right: 0;
+}
+
+.pic {
+width: 30px;
+position: absolute;
+left: -9px;
+
+}
+.header {
+  background: image-url('clouds.png') no-repeat;
+  background-size: cover;
+  padding: 130px;
+  width:100%;
+}
+
+.top{
+  background: image-url('clouds.png') no-repeat;
+  background-size: cover;
+  padding: 50px;
+  width:100%;
+  position: relative;
+}
+.main {
+  padding-top:35px;
+background-color: white;
+text-color: white;
+text-align: center;
+padding-bottom: 4%;
+
+width: 80%;
+
+}
+
+
+.footer {
+  background: image-url('footer.png') no-repeat;
+  background-size: cover;
+  padding: 90px;
+  background-position: 50% 50%;
+  clear:both;
+}
+
+.table {
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.space {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  width: 80%;
+  margin:auto;
+}
+
+ul, ul li{
+  display: inline ;
+}
+
+
+.mainwords li {
+  font-size:20px;
+  color: white;
+  margin-left: 20px;
+}
+
+.tk-adelle {
+
+  font-family: "adelle",serif;
+  letter-spacing: 2px;
+}
+
+
+.tk-adelle2 {
+
+  font-family: "adelle",serif;
+
+}
+.social img {
+display: inline;
+width: 40px;
+}
+
+.logo {
+  width: 50%;
+  margin: auto;
+}
+
+.toplogo {
+  width:40%;
+}
+
+.title {
+text-align: center;
+padding-bottom: 10px;
+color: #858585;
+font-family: "adelle",serif;
+}
+
+.new {
+  text-align: center;
+  margin:auto;
+  clear:both;
+}
+
+.space {
+  margin-top: 8px;
+}
+
+.show {
+padding-top: 20px;
+padding-bottom: 25px;
+  font-size: 20px;
+}
+
+.wrapper1 {
+  padding-bottom: 20px;
+}
+
+.move {
+  margin-top:20px;
+  background-color: #FFF205;
+  border-color: #FFF205;
+  color: #858585;
+}
+.inside {
+  text-align: center;
+  margin-top: 5%;
+  letter-spacing: 1px;
+  margin-left: 3%;
+  color: #3aaede;
+}
