@@ -13,43 +13,35 @@
 </head>
 <body>
 
-
+<!--
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+-->
 <%= yield %>
 
-<div class ="footer">
+<footer>
+  <div class="container footerspace">
+<div class = " col-md-3 col-sm-1 col-xs-12"></div>
 
-<div class="col-md-4 col-md-offset-4 col-xs-12 col-sm-6">
-  <ul class ="mainwords tk-adelle">
-    <li>SPONSOR</li>
-    <li>ABOUT</li>
-    <li>CONTACT</li>
-  </ul>
+  <div class="col-md-6 col-sm-7 col-xs-12">
+    <ul class ="mainwords tk-adelle">
+      <li>SPONSOR</li>
+      <li>ABOUT</li>
+      <li>CONTACT</li>
+    </ul>
+  </div>
+
+  <div class="col-md-3 col-sm-4 col-xs-6 col-xs-offset-3">
+    <ul class ="social">
+      <li><%= image_tag("instagram.png" , class: "img-responsive size")%></li>
+      <li><%= image_tag("facebook.png" , class: "img-responsive size")%></li>
+      <li><%= image_tag("linkedin.png" , class: "img-responsive size")%></li>
+    </ul>
 </div>
-
-<div class="col-md-4 col-xs-12 col-sm-6">
-   <ul class ="social">
-     <li><%= image_tag("instagram.png" , class: "img-responsive size")%></li>
-     <li><%= image_tag("facebook.png" , class: "img-responsive size")%></li>
-     <li><%= image_tag("linkedin.png" , class: "img-responsive size")%></li>
-  </ul>
 </div>
-</div>
-
-<!--<footer>
-  <ul class ="mainwords">
-    <li>Sponsor</li>
-    <li>About</li>
-    <li>Contact</li>
-</ul>
-
-<ul class ="social">
-  <li>twitter</li>
-  <li>facebook</li>
-  <li>instagram</li>
-</ul> -->
-
-
 </footer>
+
+
 
 </body>
 </html>

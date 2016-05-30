@@ -2,8 +2,32 @@
 <div class ="wrapper">
 <div class ="space">
 
-<h1 class="title">Listing Articles</h1>
-<table class = "table">
+<h1 class="title">My Posts</h1>
+
+<div class = "middle3">
+  <div class ="grid row">
+  <% @articles.each do |article| %>
+
+  <div class = "post grid-item col-md-4">
+    <h3><%= article.title %></h3>
+        <%= article.text %>
+
+    <p class = "line"><%= article.date %></p>
+
+    <div class = "leftstep">
+      <div class= "links">
+      <!--show--><td><%= link_to "", article_path(article), :class => "glyphicon glyphicon-eye-open" %></td>
+      <!--edit --><td><%= link_to "", edit_article_path(article), :class => "glyphicon glyphicon-pencil" %></td>
+      <!--delete--><td><%= link_to "", article_path(article), method: :delete,data: { confirm: 'Are you sure?'}, :class => "glyphicon glyphicon-trash" %></td>
+      </div>
+    </div>
+
+  </div>
+  <% end %>
+</div>
+</div>
+
+<!-- <table class = "table">
   <tr>
     <th>Title</th>
     <th>Text</th>
@@ -15,17 +39,25 @@
     <tr>
       <td><%= article.title %></td>
       <td><%= article.text %></td>
-      <td><%= article.date %></td>
+      <td><%= article.date %></td> -->
 
-  <!--show--><td><%= link_to "", article_path(article), :class => "glyphicon glyphicon-eye-open" %></td>
-  <!--edit-->  <td><%= link_to "", edit_article_path(article), :class => "glyphicon glyphicon-pencil" %></td>
-  <!--delete--> <td><%= link_to "", article_path(article), method: :delete,data: { confirm: 'Are you sure?'}, :class => "glyphicon glyphicon-trash" %></td>
+  <!--show-<td><%= link_to "", article_path(article), :class => "glyphicon glyphicon-eye-open" %></td> ->
+  <!--edit <td><%= link_to "", edit_article_path(article), :class => "glyphicon glyphicon-pencil" %></td> -->
+  <!--delete<td><%= link_to "", article_path(article), method: :delete,data: { confirm: 'Are you sure?'}, :class => "glyphicon glyphicon-trash" %></td> -->
 
 
   <!--have link for new article-->
+  <!-- <%= link_to 'New', articles_path, class: "btn btn-primary" %>
 
     </tr>
   <% end %>
 </table>
+-->
+
+<div class ="block">
+
+<%= link_to 'New', new_article_path, type: "button", class: "btn btn-primary move" %>
+
+</div>
 </div>
 </div>

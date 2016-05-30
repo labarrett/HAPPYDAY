@@ -1,7 +1,7 @@
 
 * {
   margin: 0;
-  font-family: "adelle",serif;
+  font-family: "adelle";
 }
 
 h1 {
@@ -15,6 +15,7 @@ height: 30px;
 position: absolute;
 top: 60px;
 right: 0;
+box-shadow: 20px 2px 7px #888888;
 }
 
 .pic {
@@ -49,12 +50,13 @@ width: 80%;
 }
 
 
-.footer {
+footer {
   background: image-url('footer.png') no-repeat;
   background-size: cover;
-  padding: 90px;
+  padding: 70px;
   background-position: 50% 50%;
   clear:both;
+  width:auto;
 }
 
 .table {
@@ -71,13 +73,25 @@ width: 80%;
   margin:auto;
 }
 
+
+.space2 {
+
+  margin-top: 5%;
+  padding-bottom: 5%
+}
+
+.space3 {
+
+margin-left: 2%;
+}
+
 ul, ul li{
   display: inline ;
 }
 
 
 .mainwords li {
-  font-size:20px;
+  font-size: 20px;
   color: white;
   margin-left: 20px;
 }
@@ -104,31 +118,37 @@ width: 40px;
   margin: auto;
 }
 
+.logo2 {
+  width: 100%;
+
+}
 .toplogo {
   width:40%;
 }
 
 .title {
+  margin-top: 7%;
 text-align: center;
 padding-bottom: 10px;
 color: #858585;
 font-family: "adelle",serif;
 }
-
 .new {
   text-align: center;
   margin:auto;
-  clear:both;
+overflow: hidden;
 }
 
 .space {
-  margin-top: 8px;
+  margin-top: 7px;
 }
 
 .show {
 padding-top: 20px;
 padding-bottom: 25px;
   font-size: 20px;
+  margin-top: 20px;
+  color: #323333;
 }
 
 .wrapper1 {
@@ -140,11 +160,140 @@ padding-bottom: 25px;
   background-color: #FFF205;
   border-color: #FFF205;
   color: #858585;
+  font-size: 15px;
 }
 .inside {
   text-align: center;
-  margin-top: 5%;
+  padding-top:5%;
   letter-spacing: 1px;
-  margin-left: 3%;
   color: #3aaede;
+  position: absolute;
+  right: 20px;
+}
+
+.inside2 {
+  text-align: center;
+  padding-top:5%;
+  letter-spacing: 1px;
+  color: #3aaede;
+  position: absolute;
+  right: 15px;
+}
+
+.log2 {
+background-color: white;
+width: 115px;
+height: 30px;
+position: absolute;
+top: 40px;
+right: 0;
+box-shadow: 20px 2px 7px #888888;
+}
+
+.block {
+  display: block;
+  clear: both;
+  margin:auto;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.hold {
+  width: 100%;
+  margin: 0px;
+}
+
+.middle {
+  width: 50%;
+  margin: auto;
+
+}
+
+
+.less {
+
+  margin-top: -5%;
+}
+
+.middle3 {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  clear: left;
+}
+
+.Post {
+
+width: 30%;
+float:left;
+background-color: #29A9E0;
+color: white;
+margin-left: 2%;
+padding: 2%;
+border-radius: 5px;
+margin-top: 2%;
+
+}
+
+.grid-item {
+
+}
+
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+
+.line {
+
+border-top: 1px white solid;
+margin-top: 8%;
+padding-top: 3%;
+
+}
+
+.leftstep{
+  position: relative;
+  background-color: red;
+  width: 100%;
+}
+
+
+.links {
+bottom: 1%;
+right:0;
+position: absolute;
+}
+
+
+.field {
+  margin-top: 3%;
+}
+
+.actions {
+  margin-top: 5%;
+  margin-bottom: 40px;
+}
+
+.footerspace {
+  margin-top: 2%;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+
+.middle {
+
+width: 80%;
+
+}
+
 }

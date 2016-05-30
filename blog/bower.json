@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "masonry": "^4.1.0"
   }
 }

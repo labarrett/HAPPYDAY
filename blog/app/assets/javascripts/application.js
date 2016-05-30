@@ -15,3 +15,13 @@
 //= require bootstrap/dist/js/bootstrap
 //= require turbolinks
 //= require_tree .
+//= require masonry/dist/masonry.pkgd
+
+
+
+$( document ).ready(function() {
+  $('.grid').masonry({
+  itemSelector: '.grid-item',
+  columnWidth: '.grid-item'
+});
+});

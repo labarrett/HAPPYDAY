@@ -2,7 +2,7 @@
     <%= image_tag("NEW_LOGO.png" , class: "toplogo")%>
     <div class ="log">
     <%= image_tag("final_face.png" , class: "pic")%>
-    <p class ="inside"> LOG IN</p>
+    <%= link_to 'LOG OUT', destroy_model_session_path, method: :delete, class: "inside" %>
   </div>
 
 </div>

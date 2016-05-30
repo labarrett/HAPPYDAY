@@ -2,33 +2,29 @@
 <%= render 'header' %>
 
 <div class ="container show">
+  <div class = "row">
 
-<div class = "row">
-  <div class = "col-xs-12 col-sm-8 ol-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-  <strong>Date:</strong>
-  <%= @article.date %>
-</div>
-</div>
-
-<div class = "row">
-    <div class = "col-xs-12 col-sm-8 ol-sm-offset-2  col-md-6 col-md-offset-3">
-  <strong>Title:</strong>
-  <%= @article.title %>
-</div>
-</div>
+    <div class = "col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
 
 
-<div class = "row">
-    <div class = "col-xs-12 col-sm-8 ol-sm-offset-2 col-md-6 col-md-offset-3">
-  <strong>Text:</strong>
-  <%= @article.text %>
-</div>
-</div>
+        <div class = "col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+        <h2><%= @article.title %></h2>
+        </div>
 
-<div class ="row">
-  <div class ="col-xs-12 col-sm-8 ol-sm-offset-2 col-md-6 col-md-offset-3">
-<%= link_to 'Edit', edit_article_path(@article) %>
-<%= link_to 'Back', articles_path %>
-</div>
-</div>
+        <div class = "col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+          <p class ="lead">
+          <%= @article.text %>
+        </p>
+      </div>
+
+        <div class = "col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+          <p><%= @article.date %></p>
+        </div>
+
+        <div class = "col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 space2">
+          <%= link_to 'Edit', edit_article_path(@article)%>
+          <%= link_to 'List', articles_path, class: "space3" %>
+        </div>
+      </div>
+    </div>
 </div>

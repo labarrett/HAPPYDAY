@@ -1,17 +1,28 @@
 
 
 <div class = "header">
-    <%= image_tag("NEW_LOGO.png" , class: "img-responsive logo")%>
+  <div class ="row hold">
+    <div class = "col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+    <%= image_tag("NEW_LOGO.png", class: "logo2")%>
+  </div>
+    </div>
+    <div class ="log2">
+    <%= image_tag("final_face.png" , class: "pic")%>
+    <%= link_to 'LOG IN', new_model_session_path, class: "inside" %>
+  </div>
+
 </div>
 
 <div class ="container-fluid main tk-adelle2">
   <h3>Gather your best moments, thoughts, and actions from any day.</h3>
   <p>HappyDay is your online storage space to retrive good memories that happen thoughout your week. <br>Your own online “happy place” for IRL moments.</p>
-<button type="button" class="btn btn-primary move">Sign Up</button>
+<%= link_to 'Sign Up', new_model_registration_path, class: "btn btn-primary move", type: type="button" %>
 </div>
 
 
   <!--  <%= link_to 'My Blog', controller: 'articles' %>
     <%= link_to 'New article', new_article_path %>
 <%= image_tag("clouds.png" , class: "img-responsive")%>
-   -->
+<div class ="hold">
+  <%= image_tag("NEW_LOGO.png", class: "img-responsive logo")%>
+  </div>   -->
