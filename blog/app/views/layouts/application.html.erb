@@ -9,29 +9,27 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <script src="https://use.typekit.net/mnr3pjv.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 </head>
 <body>
 
-<!--
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
--->
+
+
 <%= yield %>
 
-<footer>
+<footer class="footer">
   <div class="container footerspace">
-<div class = " col-md-3 col-sm-1 col-xs-12"></div>
+<div class = "col-md-3 col-sm-1 col-xs-12 col-xs-offset-0"></div>
 
-  <div class="col-md-6 col-sm-7 col-xs-12">
-    <ul class ="mainwords tk-adelle">
+  <div class="col-md-6 col-sm-7 col-xs-12 ">
+    <ul class ="mainwords">
       <li>SPONSOR</li>
       <li>ABOUT</li>
       <li>CONTACT</li>
     </ul>
   </div>
 
-  <div class="col-md-3 col-sm-4 col-xs-6 col-xs-offset-3">
+  <div class="col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12">
     <ul class ="social">
       <li><%= image_tag("instagram.png" , class: "img-responsive size")%></li>
       <li><%= image_tag("facebook.png" , class: "img-responsive size")%></li>

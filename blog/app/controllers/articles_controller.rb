@@ -4,7 +4,7 @@ class ArticlesController < ApplicationController
 
 
   def index
-     @articles = Article.all
+     @articles = Article.where(model_id: current_model.id)
    end
 
   def show

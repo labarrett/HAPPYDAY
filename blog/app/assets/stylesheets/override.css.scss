@@ -4,6 +4,17 @@
   font-family: "adelle";
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+
+  margin-bottom: 250px;
+}
+
+
 h1 {
   color:green;
 }
@@ -27,7 +38,7 @@ left: -9px;
 .header {
   background: image-url('clouds.png') no-repeat;
   background-size: cover;
-  padding: 130px;
+  height: 40%;
   width:100%;
 }
 
@@ -44,7 +55,7 @@ background-color: white;
 text-color: white;
 text-align: center;
 padding-bottom: 4%;
-
+margin-top: 20px;
 width: 80%;
 
 }
@@ -53,10 +64,17 @@ width: 80%;
 footer {
   background: image-url('footer.png') no-repeat;
   background-size: cover;
-  padding: 70px;
+  padding: 70px 0px;
   background-position: 50% 50%;
-  clear:both;
-  width:auto;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footerspace {
+  margin-top: 2%;
 }
 
 .table {
@@ -85,15 +103,21 @@ footer {
 margin-left: 2%;
 }
 
-ul, ul li{
-  display: inline ;
+
+
+.mainwords {
+
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 }
 
-
 .mainwords li {
+
+  display: inline;
   font-size: 20px;
   color: white;
-  margin-left: 20px;
+  margin: 0px 10px;
 }
 
 .tk-adelle {
@@ -108,8 +132,19 @@ ul, ul li{
   font-family: "adelle",serif;
 
 }
+
+.social {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.social li {
+  display: inline;
+}
+
 .social img {
-display: inline;
+  display: inline;
 width: 40px;
 }
 
@@ -187,7 +222,7 @@ height: 30px;
 position: absolute;
 top: 40px;
 right: 0;
-box-shadow: 20px 2px 7px #888888;
+box-shadow: 7px 2px 7px #888888;
 }
 
 .block {
@@ -200,8 +235,10 @@ box-shadow: 20px 2px 7px #888888;
 }
 
 .hold {
-  width: 100%;
-  margin: 0px;
+  max-width: 900px;
+  margin: auto;
+  background-color: red;
+  text-align: center;
 }
 
 .middle {
@@ -221,18 +258,17 @@ box-shadow: 20px 2px 7px #888888;
   margin: auto;
   overflow: hidden;
   clear: left;
+  background-color: red;
 }
 
-.Post {
+.post {
 
-width: 30%;
-float:left;
 background-color: #29A9E0;
 color: white;
 margin-left: 2%;
-padding: 2%;
+padding: 5%;
 border-radius: 5px;
-margin-top: 2%;
+margin-bottom: 5%;
 
 }
 
@@ -280,11 +316,12 @@ position: absolute;
   margin-bottom: 40px;
 }
 
-.footerspace {
-  margin-top: 2%;
+
+
+.topspace {
+
+  padding-top: 70px;
 }
-
-
 
 
 
@@ -295,5 +332,21 @@ position: absolute;
 width: 80%;
 
 }
+
+.social {
+
+  margin-top: 20px;
+}
+
+.topspace {
+  height: 30px;
+}
+
+.log2 {
+
+top: 10px;
+
+}
+
 
 }

@@ -4,11 +4,12 @@
 
 <h1 class="title">My Posts</h1>
 
-<div class = "middle3">
+
   <div class ="grid row">
   <% @articles.each do |article| %>
 
-  <div class = "post grid-item col-md-4">
+  <div class = "grid-item col-md-4 col-sm-6 col-xs-12">
+    <div class ="post">
     <h3><%= article.title %></h3>
         <%= article.text %>
 
@@ -21,7 +22,7 @@
       <!--delete--><td><%= link_to "", article_path(article), method: :delete,data: { confirm: 'Are you sure?'}, :class => "glyphicon glyphicon-trash" %></td>
       </div>
     </div>
-
+</div>
   </div>
   <% end %>
 </div>

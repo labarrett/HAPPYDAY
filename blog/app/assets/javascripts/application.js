@@ -20,8 +20,22 @@
 
 
 $( document ).ready(function() {
-  $('.grid').masonry({
-  itemSelector: '.grid-item',
-  columnWidth: '.grid-item'
-});
+
+   try {
+     Typekit.load({
+
+       active: function() {
+         $('.grid').masonry({
+          itemSelector: '.grid-item',
+          columnWidth: '.grid-item'
+        });
+       },
+
+     })
+   } catch(e) {}
+
+
+
+
+
 });
