@@ -1,0 +1,46 @@
+{:uriI"‚file://app/assets/javascripts/bower.json?type=application/json&id=a74f6790f0d7ee15e4865d97c17cf896b5256fa5d577914a710fc0d200cd60ec:ET:load_pathI"app/assets/javascripts;T:filenameI"&app/assets/javascripts/bower.json;T:	nameI"
+bower;T:logical_pathI"bower.json;T:content_typeI"application/json;T:sourceI"²{
+  "name": "masonry",
+  "description": "Cascading grid layout library",
+  "main": "masonry.js",
+  "dependencies": {
+    "get-size": "^2.0.2",
+    "outlayer": "^2.1.0"
+  },
+  "devDependencies": {
+    "jquery-bridget": "~2.0.0",
+    "qunit": "^1.12",
+    "jquery": ">=1.4.3 <4"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "sandbox/",
+    "gulpfile.js",
+    "package.json",
+    "composer.json"
+  ],
+  "homepage": "http://masonry.desandro.com",
+  "authors": [
+    "David DeSandro"
+  ],
+  "keywords": [
+    "masonry",
+    "layout",
+    "outlayer"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ]
+}
+;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"4file-digest://app/assets/javascripts/bower.json;TT:charsetI"
+utf-8;F:digest"%kúAp°Ð“3ò ÷ÔN8“¥Øó×/¶²Æø¥c<z:lengthi²:dependencies_digest"%ÅÞ•ÎŠ‘zÉó×š žÇ¥‰c"±ù4å-a6„zD:idI"Ea74f6790f0d7ee15e4865d97c17cf896b5256fa5d577914a710fc0d200cd60ec;F:
+mtimel+ØËCW
