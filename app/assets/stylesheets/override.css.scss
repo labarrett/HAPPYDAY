@@ -167,6 +167,7 @@ text-align: center;
 padding-bottom: 10px;
 color: #858585;
 font-family: "adelle",serif;
+margin-bottom: 25px;
 }
 .new {
   text-align: center;
@@ -349,4 +350,22 @@ top: 10px;
 }
 
 
+}
+
+
+@media only screen and (max-width: 640px)  {
+
+  .toplogo {
+    width: 80%;
+  }
+}
+
+
+@media only screen and (max-width: 500px)  {
+
+  .toplogo {
+    width: 75%;
+    margin-left: -30px;
+    margin-top: 13px;
+  }
 }

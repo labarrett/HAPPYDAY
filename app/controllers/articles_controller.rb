@@ -24,7 +24,7 @@ class ArticlesController < ApplicationController
    @article = current_model.articles.build(article_params)
 
    if @article.save
-     redirect_to @article
+     redirect_to articles_path
    else
      render 'new'
    end
