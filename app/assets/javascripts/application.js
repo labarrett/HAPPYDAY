@@ -16,6 +16,7 @@
 //= require turbolinks
 //= require_tree .
 //= require masonry/dist/masonry.pkgd
+//= require typekit
 
 
 
